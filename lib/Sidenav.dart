@@ -42,18 +42,21 @@ class SideNav extends StatelessWidget {
                   title: Text("Virtual lock",style: TextStyle(color: Colors.white),),
                   leading: Icon(FontAwesomeIcons.lock,color: Colors.white,),
                   onTap: (){
-                    Navigator.of(context).pushReplacementNamed('vlock');
+                   // Navigator.of(context).pushReplacementNamed('vlock');
                   },
                 ),
                 ListTile(
                   title: Text("Do Navigate",style: TextStyle(color: Colors.white),),
                   leading: Icon(FontAwesomeIcons.locationArrow,color: Colors.white,),
+                  onTap: (){
+                    Navigator.of(context).pushReplacementNamed('donavigation');
+                  },
                 ),
                 ListTile(
                   title: Text("My Vechle",style: TextStyle(color: Colors.white),),
                   leading: Icon(FontAwesomeIcons.car,color: Colors.white,),
                   onTap: (){
-                    Navigator.of(context).pushReplacementNamed('mydevices');
+                    Navigator.of(context).pushReplacementNamed('myvechle');
                   },
                 ),
                 ListTile(

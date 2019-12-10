@@ -17,56 +17,43 @@ class _RecordsState extends State<Records> {
           children: <Widget>[
             ListTile(
               leading: Icon(FontAwesomeIcons.running),
-              title: Text("Sandip Foundation, Nashik, Maharastra"),
+              title: Text("Home Parking \n\nparikrama apt (2), hanuman nagar, panchavati, adgaon, nashik"),
               subtitle: Text('12/2/2019 20:2:12'),
               trailing: Icon(Icons.send),
               onTap: (){
+                print("click");
                 Navigator.of(context).pushNamed('detailrecord');
               },
             ),
             Divider(),
             ListTile(
               leading: Icon(FontAwesomeIcons.running),
-              title: Text("Sandip Foundation, Nashik, Maharastra"),
+              title: Text("Collae Parking \n\nSandip Foundation, Nashik, Maharastra"),
               subtitle: Text('12/2/2019 20:2:12'),
               trailing: Icon(Icons.send),
             ),
             Divider(),
             ListTile(
               leading: Icon(FontAwesomeIcons.running),
-              title: Text("Sandip Foundation, Nashik, Maharastra"),
+              title: Text("Collae Parking \n\nSandip Foundation, Nashik, Maharastra"),
               subtitle: Text('12/2/2019 20:2:12'),
               trailing: Icon(Icons.send),
             ),
             Divider(),
             ListTile(
               leading: Icon(FontAwesomeIcons.running),
-              title: Text("Sandip Foundation, Nashik, Maharastra"),
+              title: Text("Collae Parking \n\nSandip Foundation, Nashik, Maharastra"),
               subtitle: Text('12/2/2019 20:2:12'),
               trailing: Icon(Icons.send),
             ),
             Divider(),
             ListTile(
               leading: Icon(FontAwesomeIcons.running),
-              title: Text("Sandip Foundation, Nashik, Maharastra"),
+              title: Text("Collae Parking \n\nSandip Foundation, Nashik, Maharastra"),
               subtitle: Text('12/2/2019 20:2:12'),
               trailing: Icon(Icons.send),
             ),
-            Divider(),
-            ListTile(
-              leading: Icon(FontAwesomeIcons.running),
-              title: Text("Sandip Foundation, Nashik, Maharastra"),
-              subtitle: Text('12/2/2019 20:2:12'),
-              trailing: Icon(Icons.send),
-            ),
-            Divider(),
-            ListTile(
-              leading: Icon(FontAwesomeIcons.running),
-              title: Text("Sandip Foundation, Nashik, Maharastra"),
-              subtitle: Text('12/2/2019 20:2:12'),
-              trailing: Icon(Icons.send),
-            ),
-            Divider(),
+
 
           ],
         ),

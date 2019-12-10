@@ -47,32 +47,33 @@ class _DetailRecordState extends State<DetailRecord> {
             //distance 
             ListTile(
               leading: Icon(FontAwesomeIcons.road),
-              title: Text("50 km"),
-              subtitle: Text("Distance"),
+              title: Text("Home"),
+              subtitle: Text("Parking Name"),
             ),
             //calories
             ListTile(
               leading: Icon(FontAwesomeIcons.road),
-              title: Text("50 km"),
-              subtitle: Text("Calories"),
+              title: Text("parikrama apt (2), hanuman nagar, panchavati, adgaon, nashik"),
+              subtitle: Text("Address"),
             ),
             //speed
-            ListTile(
-              leading: Icon(FontAwesomeIcons.road),
-              title: Text("50 km"),
-              subtitle: Text("Speed"),
+          ButtonTheme(
+            minWidth: MediaQuery.of(context).size.width-10,
+            height: 40.0,
+            child: RaisedButton(
+              onPressed: () {},
+              child: Text("Edit"),
             ),
-            ListTile(
-              leading: Icon(FontAwesomeIcons.road),
-              title: Text("50 km"),
-              subtitle: Text("Distance"),
+          ),
+            ButtonTheme(
+              buttonColor: Colors.red,
+              minWidth: MediaQuery.of(context).size.width-10,
+              height: 40.0,
+              child: RaisedButton(
+                onPressed: () {},
+                child: Text("Delete"),
+              ),
             ),
-            //steps
-            ListTile(
-              leading: Icon(FontAwesomeIcons.road),
-              title: Text("50 km"),
-              subtitle: Text("Steps"),
-            )
           ],
         ),
       ),

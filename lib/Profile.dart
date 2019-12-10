@@ -19,7 +19,6 @@ class _ProfilePageState extends State<ProfilePage> {
            centerTitle: true,
          ),
         drawer: SideNav(),
-        backgroundColor: Colors.grey.shade800,
         body: SafeArea(
           child: ListView(
             children: <Widget>[
@@ -88,19 +87,19 @@ class UserInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(10),
       child: Column(
         children: <Widget>[
-          Card(
+          Container(
+            color: Colors.white,
             child: Container(
               alignment: Alignment.topLeft,
-              padding: EdgeInsets.all(15),
+
               child: Column(
                 children: <Widget>[
                   Container(
                     alignment: Alignment.topLeft,
                     child: Text(
-                      "User Information",
+                      "",
                       style: TextStyle(
                         color: Colors.black87,
                         fontWeight: FontWeight.w500,
@@ -108,9 +107,6 @@ class UserInfo extends StatelessWidget {
                       ),
                       textAlign: TextAlign.left,
                     ),
-                  ),
-                  Divider(
-                    color: Colors.black38,
                   ),
                   Container(
                       child: Column(

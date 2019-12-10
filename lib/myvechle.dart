@@ -3,33 +3,33 @@ import 'Sidenav.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class MyShoes extends StatefulWidget {
-  MyShoes({Key key}) : super(key: key);
+class MyVichle extends StatefulWidget {
+  MyVichle({Key key}) : super(key: key);
 
   @override
-  _MyShoesState createState() => _MyShoesState();
+  _MyVichleState createState() => _MyVichleState();
 }
 
-class _MyShoesState extends State<MyShoes> {
+class _MyVichleState extends State<MyVichle> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("Smart Shoes"),
+        appBar: AppBar(title: Text("Smart Way"),
           centerTitle: true,
         ),
         drawer: SideNav(),
         body: ListView(
           children: <Widget>[
             ListTile(
-              title: Text("shoes 234"),
-              subtitle: Text("Shoes is configured at 12/23/12 4:3:3"),
-              leading: Icon(FontAwesomeIcons.shoePrints),
+              title: Text("Activa 4g - Bike"),
+              subtitle: Text("Device is configured at 12/23/12 4:3:3"),
+              leading: Icon(FontAwesomeIcons.biking),
             ),
             Divider(color: Colors.black12,),
             ListTile(
-              title: Text("shoes 454"),
-              subtitle: Text("Shoes is configured at 12/23/12 4:3:3"),
-              leading: Icon(FontAwesomeIcons.shoePrints),
+              title: Text("I 10 - Car"),
+              subtitle: Text("Device is configured at 12/23/12 4:3:3"),
+              leading: Icon(FontAwesomeIcons.car),
             ),
             Divider(color: Colors.black12,),
           ],
